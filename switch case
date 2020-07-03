@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Exercicio switch case</h1>
+
+
+<script>
+
+var text = "";
+var i;
+for (i = 0; i < 10; i++) {
+  alert( "The number is " + i );
+  if (i === 3) { 
+  
+  continue; 
+  
+  }
+   
+  alert( "continue " + i ); 
+   
+}
+
+
+</script>
+
+</body>
+</html>
